@@ -6,4 +6,20 @@
     font-family: 'Alegreya';
 }
 
+#start{
+    background: linear-gradient(to right,#000000,#1A4D2E, #FF9F29 );
+    background-size: 400% 400%;
+    animation: background1 13s ease-in-out infinite;
+}
+@keyframes background1 {
+    0% {
+        background-position: 0 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0% 50%;
+    }
+}
 
