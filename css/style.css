@@ -14,21 +14,9 @@
     background: -webkit-radial-gradient(center, rgba(248, 224, 1, 1.0), rgba(228, 241, 236, 1.0));
     background: -moz-radial-gradient(center, rgba(248, 224, 1, 1.0), rgba(228, 241, 236, 1.0));
     background: radial-gradient(ellipse at center, rgba(248, 224, 1, 1.0), rgba(228, 241, 236, 1.0));  
-    /* background-size: 400% 400%; */
     height: 100vh;
-    animation: background1 10s ease-in-out infinite ;
 }
-@keyframes background1{
-    0%{
-        background-position: 0 50%;
-    }
-    50%{
-        background-position: 100% 50%;
-    }
-    100%{
-        background-position: 0 50%;
-    }
-}
+
 
 #start .content header {
     background-color: #000000;
