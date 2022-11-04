@@ -47,7 +47,7 @@
 
 #start .content header .header-content h1{
     text-align: center;
-    color:#3F0071;
+    color:#fff;
     font-family: 'Marvin', sans-serif;;
 }
 
@@ -116,8 +116,12 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
     font-weight: bold;
     text-transform: uppercase;
     transition: .5s;
+    background: rgba( 255, 255, 255, 0.1 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 4px );
+-webkit-backdrop-filter: blur( 4px );
 }
 
 #start .content .presentation a:hover{
-    background-color: #FF9F29;
+    background-color:#8B2F97;
 }
