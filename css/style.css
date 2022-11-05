@@ -67,11 +67,11 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background: rgba( 255, 255, 255, 0.2 );
+    /* background: rgba( 255, 255, 255, 0.2 );
 box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
 backdrop-filter: blur( 4px );
 -webkit-backdrop-filter: blur( 4px );
-border: 1px solid rgba( 255, 255, 255, 0.18 );
+border: 1px solid rgba( 255, 255, 255, 0.18 ); */
 }
 
 #start .content .presentation .welcome{
@@ -115,4 +115,59 @@ backdrop-filter: blur( 4px );
 #start .content .presentation a:hover{
     background-color:rgba(248, 224, 1, 1.0);
     border: 2px solid #ffff;
+}
+
+#aboutme {
+    max-width: 1100px;
+    margin: auto;
+    padding: 100px 15px;
+    display: flex;
+}
+
+#aboutme .photo-container {
+    max-width: 400px;
+    margin-right: 80px;
+    margin: 100px;
+}
+
+#aboutme .photo-container img{
+    padding: 20px;
+    width: 100%;
+    border-radius: 20px;
+    background-color: #fff;
+}
+
+#aboutme .aboutme{
+    margin: 0 40px;
+    
+}
+
+#aboutme .aboutme .section-title {
+    font-size: 22px;
+    text-transform: uppercase;
+    color: #000000;
+    text-decoration: underline;
+    text-decoration-color: #fff;
+    text-decoration-thickness: 5px;
+}
+
+#aboutme .aboutme h2{
+    font-size: 34px;
+    font-weight: bold;
+    margin: 20px 0;
+    letter-spacing: 2px;
+}
+
+#aboutme .aboutme h3{
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+}
+
+#aboutme .aboutme p{
+    font-size: 14px;
+    line-height: 25px;
+    margin-bottom: 12px;
 }
