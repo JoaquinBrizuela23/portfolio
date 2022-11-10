@@ -232,7 +232,7 @@
 }
 
 #contact .form-container input,
-#conatct .form-container textarea{
+#contact .form-container textarea{
     padding: 20px;
     border-radius: 20px;
     border: none;
@@ -268,6 +268,31 @@
 #contact .submit-btn:hover {
     background-color: #FFF904;
     color: #000000;
+}
+
+/* servicios */
+
+#service {
+    padding: 100px 15px;
+    text-align: center;
+    background-color: #fff;
+}
+
+#service .section-title {
+    text-align: center;
+    font-size: 22px;
+    text-transform: uppercase;
+    color: #000000;
+    text-decoration: underline;
+    text-decoration-color: #FFF904;
+    text-decoration-thickness: 5px;
+}
+
+#service .file{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1150px;
+    margin: 30px auto;
 }
 
 /* footer */
