@@ -295,6 +295,53 @@
     margin: 30px auto;
 }
 
+#service .file .service{
+    max-width: 350px;
+    background-color: #000000;
+    padding: 30px;
+    margin: 0 5px;
+    border-radius: 5px;
+    transition: .5s;
+}
+
+#service .file .service:hover{
+    box-shadow: 5px 5px 10px #565656, -5px -5px 10px #8a8a8a ;
+}
+
+#service .file .service .icon {
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #d3d3d3;
+    padding: 20px;
+    margin-bottom: 25px;
+}
+
+#service .file h4 {
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+
+#service .file .service hr{
+    width: 30%;
+    margin: auto;
+    color:#000000;
+    margin-bottom: 25px;
+}
+
+#service .file .service-tag{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-bottom: 10px;
+}
+
+#service .file p{
+    font-size: 20px;
+    line-height: 22px;
+}
 /* footer */
 
 footer {
