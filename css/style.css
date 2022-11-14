@@ -38,7 +38,7 @@
 #start .content header .header-content h1{
     text-align: center;
     color:#fff;
-    font-family: 'Marvin', sans-serif;;
+    font-family: 'Marvin', sans-serif;
 }
 
 #start .content header .header-content nav ul{
@@ -56,6 +56,17 @@
 }
 #start .content header .header-content nav ul li a:hover{
     color:rgba(248, 224, 1, 1.0);
+}
+
+#start .content header .header-content .redes a{
+    text-decoration: none;
+            color: #fff;
+            display: inline-block;
+            margin-left: 10px;
+            transition: .5s;
+}
+#start .content header .header-content .redes a:hover{
+    color: #FFD101;
 }
 
 #start .content .presentation{
@@ -131,7 +142,7 @@
 #aboutme .photo-container img{
     padding: 20px;
     width: 100%;
-    border: 1px solid #000000;
+    border: 1px solid #FFF904;
     border-radius: 0px;
 }
 
@@ -194,6 +205,173 @@
 #aboutme .aboutme a:hover{
     background-color: #FFF904;
     border-color: #000000;
+}
+
+/* servicios */
+
+#service {
+    background: #FFFFFF;
+    background: -webkit-radial-gradient(top, #FFFFFF, #FFD101);
+    background: -moz-radial-gradient(top, #FFFFFF, #FFD101);
+    background: radial-gradient(to bottom, #FFFFFF, #FFD101);
+    padding: 100px 15px;
+    text-align: center;
+    background-color: #fff;
+}
+
+#service .section-title {
+    text-align: center;
+    font-size: 22px;
+    text-transform: uppercase;
+    color: #000000;
+    text-decoration: underline;
+    text-decoration-color: #FFF904;
+    text-decoration-thickness: 5px;
+}
+
+#service .file{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1150px;
+    margin: 30px auto;
+}
+
+#service .file .service{
+    max-width: 450px;
+    background-color: #F1F4F3;
+    padding: 30px;
+    margin: 0 5px;
+    border-radius: 5px;
+    transition: .5s;
+}
+
+#service .file .service:hover{
+    box-shadow: 5px 5px 10px #FFD101, -5px -5px 10px #FFF904 ;
+}
+
+#service .file .service .icon {
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #d3d3d3;
+    padding: 20px;
+    margin-bottom: 25px;
+}
+
+#service .file h4 {
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+
+#service .file .service hr{
+    width: 30%;
+    margin: auto;
+    color:#000000;
+    margin-bottom: 25px;
+}
+
+#service .file .service-tag{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-bottom: 10px;
+}
+
+#service .file p{
+    font-size: 20px;
+    line-height: 22px;
+}
+
+/* habilidades */
+
+.skills-container {
+    background: #000000;
+    background-attachment: fixed;
+    color: #fff;
+    background-position: center center;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.skills-container h3{
+    text-align: center;
+    font-size: 22px;
+    text-transform: uppercase;
+    color:#fff;
+    text-decoration: underline;
+     text-decoration-color:#FFF904;
+     text-decoration-thickness: 5px;
+}
+.skills-container .skills{
+    max-width: 600px;
+    margin: 30px auto;
+}
+
+.skills-container .skills .info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.skills-container .skills .list{
+    display: inline-block;
+    margin-right: 20px;
+    height: 10px;
+    width: 10px;
+    background-color: #fff
+}
+
+.skills-container .skills .bar{
+    background-color: #fff;
+    height: 6px;
+    margin: 10px 0;
+}
+
+.skills-container .skills .bar .barra-progreso1{
+    background-color: #FFD101;
+    width: 95%;
+    height: 6px;
+    animation: progreso1 2s forwards;
+}
+.skills-container .skills .bar .barra-progreso2{
+    background-color: #FFD101;
+    width: 88%;
+    height: 6px;
+    animation: progreso2 2s forwards;
+}
+.skills-container .skills .bar .barra-progreso3{
+    background-color: #FFD101;
+    width: 80%;
+    height: 6px;
+    animation: progreso3 2s forwards;
+}
+
+@keyframes progreso1 {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 95%;
+    }
+}
+
+@keyframes progreso2 {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 88%;
+    }
+}
+
+@keyframes progreso3 {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 80%;
+    }
 }
 
 /* contactto */
@@ -260,80 +438,6 @@
     background-color: #FFF904;
     color: #000000;
 }
-
-/* servicios */
-
-#service {
-    padding: 100px 15px;
-    text-align: center;
-    background-color: #fff;
-}
-
-#service .section-title {
-    text-align: center;
-    font-size: 22px;
-    text-transform: uppercase;
-    color: #000000;
-    text-decoration: underline;
-    text-decoration-color: #FFF904;
-    text-decoration-thickness: 5px;
-}
-
-#service .file{
-    display: flex;
-    justify-content: space-between;
-    max-width: 1150px;
-    margin: 30px auto;
-}
-
-#service .file .service{
-    max-width: 450px;
-    background-color: #F1F4F3;
-    padding: 30px;
-    margin: 0 5px;
-    border-radius: 5px;
-    transition: .5s;
-}
-
-#service .file .service:hover{
-    box-shadow: 5px 5px 10px #565656, -5px -5px 10px #8a8a8a ;
-}
-
-#service .file .service .icon {
-    display: inline-block;
-    width: 60px;
-    height: 60px;
-    border-radius: 50%;
-    background-color: #d3d3d3;
-    padding: 20px;
-    margin-bottom: 25px;
-}
-
-#service .file h4 {
-    font-size: 20px;
-    margin-bottom: 25px;
-}
-
-#service .file .service hr{
-    width: 30%;
-    margin: auto;
-    color:#000000;
-    margin-bottom: 25px;
-}
-
-#service .file .service-tag{
-    list-style: none;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    margin-bottom: 10px;
-}
-
-#service .file p{
-    font-size: 20px;
-    line-height: 22px;
-}
-
 /* footer */
 
 footer {
@@ -341,5 +445,16 @@ footer {
     color: #fff;
     text-align: center;
     padding: 30px 0;
+}
+footer p{
+    font-family: 'Marvin', sans-serif;
+}
+
+footer a{
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+    margin: 5px;
+    font-size: 26px;
 }
 
