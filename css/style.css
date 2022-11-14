@@ -211,9 +211,9 @@
 
 #service {
     background: #FFFFFF;
-    background: -webkit-radial-gradient(top, #FFFFFF, #FFD101);
-    background: -moz-radial-gradient(top, #FFFFFF, #FFD101);
-    background: radial-gradient(to bottom, #FFFFFF, #FFD101);
+    background: -webkit-radial-gradient(top, #FFFFFF, rgba(248, 224, 1, 1.0));
+    background: -moz-radial-gradient(top, #FFFFFF, rgba(248, 224, 1, 1.0));
+    background: radial-gradient(to bottom, #FFFFFF, rgba(248, 224, 1, 1.0));
     padding: 100px 15px;
     text-align: center;
     background-color: #fff;
