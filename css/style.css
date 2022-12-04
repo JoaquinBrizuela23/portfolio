@@ -542,6 +542,17 @@ footer a{
 #aboutme .aboutme a{
     font-size: 15px;
 }
+/* servicios */
+
+#service{
+    padding: 50px 15px;
+}
+#service .file{
+    display: block;
+}
+#service .file .service{
+    margin: 10px auto;
+}
 
 /* skills */
 .skills-container {
