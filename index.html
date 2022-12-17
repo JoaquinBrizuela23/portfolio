@@ -149,16 +149,16 @@
   <section id="contact">
     <h3 class="section-title">Contactame</h3>
     <div class="form-container">
-      <form action="" class="action">
+      <form class="form" id="form" action="https://formspree.io/f/mrgvzbzl" method="POST">
         <div class="midle-file">
-          <input type="text"  placeholder="Nombre completo" class="midle-input">
-          <input type="email"  placeholder="Dirección de Email" class="midle-input">
+          <input name="name"  required type="text"  placeholder="Nombre completo" class="midle-input">
+          <input name="email"  placeholder="Dirección de Email" class="midle-input">
         </div>
         <div class="file">
           <input type="text"  placeholder="Tema" class="full-input">
         </div>
         <div class="file">
-          <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje" class="full-input"></textarea>
+          <textarea name="message" id="" cols="30" rows="10" placeholder="Mensaje" class="full-input"></textarea>
         </div>
         <input type="submit" value="Enviar mensaje" class="submit-btn">
       </form>
@@ -174,5 +174,6 @@
 
   </footer>
     <script src="js/main.js"></script>
+    <script src="/js/form.js"></script>
 </body>
 </html>
